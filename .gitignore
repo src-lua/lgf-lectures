@@ -1,0 +1,21 @@
+node_modules/
+presentations/*/node_modules/
+_archive/*/node_modules/
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.env.local
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+dist/
+build/
+presentations/*/dist/
+# TikZ build-time cache (remover se quiser commitar o cache para CI mais rápido)
+.tikz-cache/
+presentations/*/.tikz-cache/
