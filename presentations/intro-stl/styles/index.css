@@ -1,0 +1,9 @@
+@import '../../../shared/styles/base.css';
+
+/* Presentation-local overrides go here */
+
+/* Markdown table compactness */
+.slidev-layout table td,
+.slidev-layout table th {
+  padding: 0.2em 0.6em;
+}
