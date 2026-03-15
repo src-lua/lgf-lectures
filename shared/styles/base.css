@@ -12,7 +12,7 @@
   --slidev-code-font-size: 0.65em;
   --slidev-code-font-family: 'JetBrains Mono', monospace;
 
-  font-size: 19px;
+  font-size: 16px;
 }
 
 /* ── Base ────────────────────────────────────────────────────────────────── */
@@ -74,8 +74,9 @@ code, pre {
 :not(pre) > code {
   background: rgba(219, 30, 47, 0.1) !important;
   color: var(--primary);
-  padding: 0.2em 0.4em;
+  padding: 0.1em 0.3em;
   border-radius: 3px;
+  font-size: 0.7em !important;
 }
 
 /* All pre blocks: box decoration */
@@ -95,8 +96,8 @@ code, pre {
 }
 
 /* ── Math ────────────────────────────────────────────────────────────────── */
-.katex { font-size: 0.5em !important; }
-.katex-display > .katex { font-size: 0.7em !important; }
+.katex { font-size: 0.9em !important; }
+.katex-display > .katex { font-size: 1em !important; }
 p .katex-display { margin: 1rem 0; }
 
 /* ── Layouts ─────────────────────────────────────────────────────────────── */

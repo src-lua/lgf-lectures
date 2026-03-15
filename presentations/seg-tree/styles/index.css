@@ -1,3 +1,6 @@
 @import '../../../shared/styles/base.css';
 
 /* seg-tree presentation overrides */
+:root { font-size: 19px; }
+.katex { font-size: 0.5em !important; }
+.katex-display > .katex { font-size: 0.7em !important; }

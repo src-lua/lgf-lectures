@@ -47,7 +47,9 @@ cat > "$DEST/package.json" << PKGJSON
   },
   "devDependencies": {
     "@slidev/cli": "^52.11.5",
-    "playwright-chromium": "^1.58.1"
+    "@slidev/types": "^52.14.1",
+    "playwright-chromium": "^1.58.1",
+    "vite": "^7.3.1"
   }
 }
 PKGJSON
